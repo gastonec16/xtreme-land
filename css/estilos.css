@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+* {
+  font-family: 'Paytone One';
+  font-size: x-large;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/fondo.jpg'); /* Cambia 'fondo.jpg' por la ruta de tu imagen de fondo */
+  background-size: cover;
+  background-position: top left;
+
+}
+
+nav {
+  background-color: orange;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav img {
+  float: left;
+  margin: 10px 20px;
+  height: 50px;
+}
+
+nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+  max-height: 78px;
+}
+
+.texto {
+  position: absolute;
+  bottom: 60%;
+  left: 10%;
+  font-size: xx-large;
+  color: white;
+}
+
+input[type="submit"],
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+}
+
+.boton-inicio {
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+}
+
+.redes {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+
+}
+
+.redes img {
+  display: block;
+  margin-top: 24px;
+  width: 80px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+}
+
+.formulario {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  margin-top: 96px;
+}
+
+.campo {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: medium;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  width: 96%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: large;
+
+}
+
+.galeria {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  margin-top: 96px;
+}
+
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+}
+
+.img-grid img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+}
